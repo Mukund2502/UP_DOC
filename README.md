@@ -32,11 +32,12 @@ cd /etc/openvpn/easy-rsa
 ```
 5. Copy the contents of Client certificate(.cert) and private key(.private.key) by navigating to
 ```bash
-cd pki/issued
+cd pki/issued 
 cd pki/private
 ```
 6. Create a .ovpn profile for new team-member by properly mentioning below content in the .ovpn file
-
+```bash
+```
 7. Place the .ovpn file under the below path
 
    For windows
