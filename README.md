@@ -39,6 +39,7 @@ cd pki/private
 
 
 7. Place the .ovpn file under the below path
+
 For windows
 ```bash
 C:\Program Files\OpenVPN\config
