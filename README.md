@@ -37,14 +37,13 @@ cd pki/private
 ```
 6. Create a .ovpn profile for new team-member by properly mentioning below content in the .ovpn file
 
-
 7. Place the .ovpn file under the below path
 
-For windows
+   For windows
 ```bash
 C:\Program Files\OpenVPN\config
 ```
-For MacOs
+   For MacOs
 ```bash
 ~/Library/OpenVPN #(or you can simply drag and drop the .ovpn file onto the Tunnelblick icon)
 ```
