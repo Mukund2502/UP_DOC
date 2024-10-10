@@ -27,7 +27,28 @@ passwd <name of new Team member> #(It will prompt us to enter the password)
 ```bash
 cd /etc/openvpn/easy-rsa
 ``` 
+4. Generate Client certificate and private key for the new team-member without requiring a password for the key using
+```bash
+./easyrsa build-client-full <new team-member name> nopass
+```
+5. Copy the contents of Client certificate(.cert) and private key(.private.key) by navigating to
+```bash
+cd pki/issued
+cd pki/private
+```
+6. Create a .ovpn profile for new team-member by properly mentioning below content in the .ovpn file
 
+
+7. Place the .ovpn file under the below path
+For windows
+```bash
+C:\Program Files\OpenVPN\config
+```
+For MacOs
+```bash
+~/Library/OpenVPN #(or you can simply drag and drop the .ovpn file onto the Tunnelblick icon)
+```
+8. In the Step 2 we created username, password provide the same creds to new team-member and ask him to connect to Vpn.
 
 
 
