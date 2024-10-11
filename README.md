@@ -63,6 +63,18 @@ f. Vulneribility alerts
 h. Automated Security Scans
 i. Audit logs
 ```
+### 2. Vpn:
+
+
+### 3. Control User access priviliges
+
+### 4 . Antivirus software
+
+### 5. Data Encryption
+
+### 6. Firewall
+
+### 7. data life cycle management
 
 
 
