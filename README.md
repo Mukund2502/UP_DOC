@@ -52,6 +52,7 @@ h. In the Step 2 we created username, password provide the same creds to new tea
 
 ## 3. Data security
 ### 1.GitHub:
+Ensure
 ```bash
 a.  Repo visiblity
 b.  Access control based on roles
