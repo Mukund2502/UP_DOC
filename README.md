@@ -52,6 +52,7 @@ h. In the Step 2 we created username, password provide the same creds to new tea
 
 ## 3. Data security
 ### 1.GitHub:
+```bash
 a.  Repo visiblity
 b.  Access control based on roles
 c. Two-factor Authentication
@@ -60,7 +61,7 @@ e. Secret Management
 f. Vulneribility alerts
 h. Automated Security Scans
 i. Audit logs
-
+```
 
 
 
