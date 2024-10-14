@@ -50,6 +50,12 @@ C:\Program Files\OpenVPN\config
 ```
 h. In the  **Step 2** we created username, password provide the same creds to new team-member and ask him to connect to Vpn.
 
+
+##  Deployment Diagram
+![deployment_diagram](https://github.com/user-attachments/assets/ed83a7e7-493a-4a43-8811-c32daf2f8018)
+
+
+
 ## 3. Data security
 ### 1.GitHub:
 Ensure
@@ -75,6 +81,7 @@ i. Audit logs
 ### 6. Firewall
 
 ### 7. data life cycle management
+
 
 
 
