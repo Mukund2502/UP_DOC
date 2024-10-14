@@ -48,7 +48,7 @@ C:\Program Files\OpenVPN\config
 ```bash
 ~/Library/OpenVPN #(or you can simply drag and drop the .ovpn file onto the Tunnelblick icon)
 ```
-h. In the ** Step 2** we created username, password provide the same creds to new team-member and ask him to connect to Vpn.
+h. In the  **Step 2** we created username, password provide the same creds to new team-member and ask him to connect to Vpn.
 
 ## 3. Data security
 ### 1.GitHub:
