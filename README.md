@@ -86,16 +86,21 @@ Grafana is used for advanced data visualization and real-time monitoring. It pul
 ## 3. Data security
 ### 1.GitHub:
 Ensure
-```bash
-a.  Repo visiblity
-b.  Access control based on roles
-c. Two-factor Authentication
-d. branch protection rules
-e. Secret Management
-f. Vulneribility alerts
-h. Automated Security Scans
-i. Audit logs
-```
+
+#### a.  Repo visiblity 
+Ensure repo is pvt.
+#### b.  Access control based on roles
+Ensure acess is provided based on the role of the team-member
+#### c. Two-factor Authentication
+For additional security enable two-factor authentication by navigating to **https://github.com/settings/security**
+#### d. branch protection rules
+Set branch protection rules so that we can prevent direct pushes to branches, restrict pushes and it enhances code quality by having multiple code reviews
+#### e. Secret Management
+
+#### f. Vulneribility alerts
+#### h. Automated Security Scans
+#### i. Audit logs
+
 ### 2. Vpn:
 
 
