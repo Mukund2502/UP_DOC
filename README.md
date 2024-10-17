@@ -113,7 +113,7 @@ Frequent scanning of our VDI's and systems is mandated so that from our end we a
 In Unified practice we are using aws WAF which helps us to  safeguard our web applications from common web exploits and vulnerabilities that could affect application availability, compromise security.
 
 ### 6. Data life cycle management
-In our project, we created  **AWS Data Lifecycle Manager** to automate the creation, retention, and deletion of EBS snapshots and AMIs. This service helps us manage our data more efficiently, ensuring that backups are consistently updated and also we can optimize storage costs by removing unnecessary data. By implementing lifecycle policies, we enhance our data security posture by ensuring that our critical data is properly backed up and that outdated data is securely removed.
+In our project, we have  **AWS Data Lifecycle Manager** for automating  the creation, retention, and deletion of EBS snapshots and AMIs. This service helps us manage our data more efficiently, ensuring that backups are consistently updated and also we can optimize storage costs by removing unnecessary data. By implementing lifecycle policies, we enhance our data security posture by ensuring that our critical data is properly backed up and that outdated data is securely removed.
 
 
 
