@@ -50,7 +50,6 @@ C:\Program Files\OpenVPN\config
 ```
 h. In the  **Step 2** we created username, password provide the same creds to new team-member and ask him to connect to Vpn.
 
-
 ##  Deployment Diagram
 ![Uploading final-deployment_UP.png…]()
 
