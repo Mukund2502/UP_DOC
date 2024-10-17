@@ -85,8 +85,6 @@ Grafana is used for advanced data visualization and real-time monitoring. It pul
 
 ## 3. Data security
 ### 1.GitHub:
-Ensure
-
 #### a.  Repo visiblity 
 Ensure repo is pvt.
 #### b.  Access control based on roles
@@ -94,25 +92,28 @@ Ensure acess is provided based on the role of the team-member
 #### c. Two-factor Authentication
 For additional security enable two-factor authentication by navigating to **https://github.com/settings/security**
 #### d. branch protection rules
-Set branch protection rules so that we can prevent direct pushes to branches, restrict pushes and it enhances code quality by having multiple code reviews
+Set branch protection rules so that we can prevent direct pushes to branches, restrict pushes and it enhances code quality by having multiple code reviews.
 #### e. Secret Management
-
+In order to ensure  sensitive data such as API keys and passwords, is protected from unauthorized access and potential breaches we need to make sure that we are implementing this in our codebase.
 #### f. Vulneribility alerts
+Enable Dependabot alerts so that we will receive alerts for vulnerabilities that affect our dependencies and manually generate Dependabot pull requests to resolve these vulnerabilities.
 #### h. Automated Security Scans
-#### i. Audit logs
+Do security scans for repo,secrets  by using code scanning and secret scanning.
 
 ### 2. Vpn:
-
+In our project, we are using OpenVPN, which provides a secure and encrypted connection to our AWS environments. This setup ensures secure client connections, authenticates users, and routes traffic safely.
 
 ### 3. Control User access priviliges
+Based on the role of team-member we need to ensure that we are providing right level of access for all the tools and technologies for smooth workflow.(i.e, github,aws,Teamcity server) 
 
 ### 4 . Antivirus software
+Frequent scanning of our VDI's and systems is mandated so that from our end we are ensuring that any potential threats or vulnerabilities are detected and addressed promptly. For this we came up with an open source tool called malware bytes and we can download this from **https://www.malwarebytes.com/mwb-download**
 
-### 5. Data Encryption
+### 5. Firewall
+In Unified practice we are using aws WAF which helps us to  safeguard our web applications from common web exploits and vulnerabilities that could affect application availability, compromise security.
 
-### 6. Firewall
-
-### 7. data life cycle management
+### 6. Data life cycle management
+In our project, we created  **AWS Data Lifecycle Manager** to automate the creation, retention, and deletion of EBS snapshots and AMIs. This service helps us manage our data more efficiently, ensuring that backups are consistently updated and also we can optimize storage costs by removing unnecessary data. By implementing lifecycle policies, we enhance our data security posture by ensuring that our critical data is properly backed up and that outdated data is securely removed.
 
 
 
