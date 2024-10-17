@@ -54,7 +54,7 @@ h. In the  **Step 2** we created username, password provide the same creds to ne
 ##  Deployment Diagram
 ![deployment](https://github.com/user-attachments/assets/f9ab23af-5f72-4068-8168-fd567c583e32)
 
-Above diagram illustrates a typical continuous integration and continuous deployment (CI/CD) pipeline that is used to build, test, and deploy an application in an AWS environment. The workflow integrates several tools and services like GitHub, TeamCity, AWS EC2, MSSQL Server, and monitoring tools such as Amazon CloudWatch and Grafana.
+Above diagram explains a typical continuous integration and continuous delivery (CI/CD) pipeline that is used to build, test, and deploy an application in an AWS environment. The workflow integrates several tools and services like GitHub, TeamCity, AWS EC2, MSSQL Server, and monitoring tools such as Amazon CloudWatch and Grafana.
 ### Workflow Explanation:
 #### 1. Source Code Management with GitHub:
 
