@@ -51,7 +51,8 @@ C:\Program Files\OpenVPN\config
 h. In the  **Step 2** we created username, password provide the same creds to new team-member and ask him to connect to Vpn.
 
 ##  Deployment Diagram
-![Uploading final-deployment_UP.png…]()
+![final-deployment_UP](https://github.com/user-attachments/assets/cefa5e4b-a875-4b54-b98d-a759975d4952)
+
 
 
 Above diagram explains a typical continuous integration and continuous delivery (CI/CD) pipeline that is used to build, test, and deploy an application in an AWS environment. The workflow integrates several tools and services like GitHub, TeamCity, AWS EC2, MSSQL Server, and monitoring tools such as Amazon CloudWatch and Grafana.
