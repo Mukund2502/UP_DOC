@@ -76,7 +76,7 @@ MSSQL (Microsoft SQL Server) is the database engine responsible for the relation
 #### 5. Monitoring and Logging:
 
 CloudWatch is connected to monitor the EC2 instance and the MSSQL server. It collects logs and metrics related to the application's performance, resource usage, and health.
-Grafana is used for advanced data visualization and real-time monitoring. It pulls data from CloudWatch or directly from the MSSQL database to provide insights into the application's health and performance.
+Grafana is used for advanced data visualization and real-time monitoring.
 
 
 
