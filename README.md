@@ -1,14 +1,12 @@
 # Unified Practice Documentation
 
 ## 1. Steps for Connecting to the OpenVPN Server 
-a. Connect to  OpenVPN server through SSH by necessary .pem file having in our local PC(VDI)
+a. Connect to  OpenVPN server through SSH by necessary .pub file having in our local PC(VDI)
 
-   Navigate to folder where .pem is located
+   Navigate to folder where .pub is located
+
 ```bash
-chmod 400 <name of.pem>
-```
-```bash
-ssh -i /path/to/<.pem file> ec2-user@<public-ip>
+ssh -i /path/to/<.pub file> ec2-user@<public-ip>
 ```
 ## 2. Steps for providing VPN Access to a New Team Member
 a. After logging into ec2 become root user by using
@@ -20,7 +18,7 @@ b. Add the New team-member to the openVpn server and create a password for him u
 useradd <name of the new Team member>
 ```
 ```bash
-passwd <name of new Team member> #(It will prompt us to enter the password)
+passwd <name of new Team member> #(It will prompt us to enter the new password)
 ```
 c. Navigate to easy-rsa directory by using
 ```bash
@@ -42,7 +40,7 @@ g. Place the .ovpn file under the below path
 
    For windows
 ```bash
-C:\Program Files\OpenVPN\config
+C:\Program Files\Users\Username\OpenVPN\config
 ```
    For MacOs
 ```bash
@@ -64,16 +62,16 @@ The version control system used here is Git, which helps track changes and manag
 #### 2. TeamCity as the CI Server:
 
 TeamCity Server pulls the code from GitHub.
-The server orchestrates the build process by distributing tasks to one or more TeamCity Agents.
+The server orchestrates the build process by distributing tasks to a TeamCity Agent.
 TeamCity Agent is responsible for running the build tasks, which include compiling the code, running automated tests, and preparing the application for deployment.
-Once the code is successfully built and tested, the TeamCity Server pushes the build artifacts to the deployment stage.
+
 #### 3 . Deployment to AWS EC2:
 
 After the build is complete, the application is deployed onto an EC2 instance in the us-east-1a availability zone within the N. Virginia region of AWS Cloud.
 The EC2 instance hosts the application and connects to other services, such as the database.
 #### 4. Database Integration (MSSQL):
 
-The application on EC2 communicates with an MSSQL Server hosted either on the same EC2 instance or on another instance. This server handles data storage, management, and retrieval.
+The application on EC2 communicates with an MSSQL Server hosted on another instance. This server handles data storage, management, and retrieval.
 MSSQL (Microsoft SQL Server) is the database engine responsible for the relational data used by the application.
 #### 5. Monitoring and Logging:
 
